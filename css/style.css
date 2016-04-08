@@ -1,0 +1,118 @@
+﻿@charset "utf-8";
+/*Author:lilong*/
+html{ _background-image:url(about/blank); filter:expression(document.execCommand("BackgroundImageCache", false, true)); width: 100%; height: 100%}
+body,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,input,textarea,p,tr,th,td{ padding:0; margin:0; word-wrap:break-word; word-break:break-all;}
+i,em { font-style:normal; padding:0; margin:0; word-wrap:break-word; word-break:break-all;}
+body{ font-family:"Microsoft yahei",tahoma,verdana,arial,"simsun"; color:#666; font-size:14px; line-height: 28px; width: 100%; height: 100%; background: #fff;}
+h1,h2,h3,h4,h5,h6,strong,b{ font-size:100%; font-weight: normal;}
+input[type="button"], input[type="submit"],button{ cursor:pointer; noFocusLine:expression(this.onFocus=this.blur()); outline:none; }
+input[type="text"],input[type="password"],textarea,select {outline:none;}
+textarea {resize:none;}
+table {	border-collapse:collapse; border-spacing:0; border:none;}
+ul,ol{list-style:none;}
+img { border:none; margin:0; padding:0; vertical-align:middle; }
+a{text-decoration:none; cursor:pointer; noFocusLine:expression(this.onFocus=this.blur()); outline:none; color:#666; }
+a:hover{color:#58bae9;}
+
+.cf:after,.cf:before,.cf li:after,.cf li:before {content: ""; display: table;}
+.cf:after,.cf li:after { clear: both; }
+.cf,.cf li{zoom:1}
+.ovh { overflow:hidden; *zoom:1;}
+.fl{ float:left; _display:inline; }
+.fr{ float:right; _display:inline; }
+.tc{ text-align:center; }
+.tl{ text-align:left; }
+.tr{ text-align:right; }
+.vm{ vertical-align:middle; }
+.fb {font-weight:bold;}
+
+.mt5 {	margin-top:5px}
+.mt10 {	margin-top:10px}
+.mt15 {	margin-top:15px}
+.mt20 {	margin-top:20px}
+.mt25 {	margin-top:25px}
+.mt30 {	margin-top:30px}
+.ml5 {	margin-left:5px}
+.ml10 {	margin-left:10px}
+.ml15 {	margin-left:15px}
+.ml20 {	margin-left:20px}
+.mr5 {	margin-right:5px}
+.mr10 {	margin-right:10px}
+.mr15 {	margin-right:15px}
+.mr20 {	margin-right:20px}
+.m10 {	margin:10px}
+.mlr{ margin-left:auto; margin-right:auto;}
+.mb20{ margin-bottom: 20px;}
+.z1{ z-index:1;}
+.z2 {z-index:2; position:relative;}
+.ovh{ overflow: hidden;}
+.area{  width: 1000px; margin-left: auto; margin-right: auto;}
+.t_elli{ text-overflow:ellipsis; white-space:nowrap; word-wrap:normal; overflow:hidden;}
+
+/*topBar*/
+.topBar{ width: 100%; height: 60px; padding: 20px 0;  position: fixed; _position: absolute; left: 0; top: 0; z-index: 3;}
+.topBar .logo{ height: 60px; margin-left: 40px; }
+.topBar .nav a { float: left; margin-right: 40px; text-align: center; }
+.topBar .nav a em,.topBar .nav a i{ display: block; }
+.topBar .nav a em{ font-size:18px; color: #000; height: 30px; padding: 0 5px; }
+.topBar .nav a:hover em{ color: #000;height: 29px;  border-bottom: solid 1px #000; }
+.topBar .nav a i,.topBar .nav a:hover i{ color: #fff }
+
+.topBarFiexd{ padding: 10px 0; background: rgba(255,255,255,.95); border-bottom: solid 1px #f4f4f4; box-shadow: 0 0 5px rgba(0,0,0,.2);}
+.topBarFiexd .nav a i,.topBarFiexd .nav a:hover i{ color: #58bae9}
+
+/*bigLogo*/
+.bigLogo{background: url( ../images/bg-1.jpg) no-repeat top center; padding-top: 210px; height: 570px; position: relative; z-index: 1;}
+.about,.case,.team,.partner,.contact,.foot{ position: relative; z-index: 2; }
+
+/*product*/
+.idxTit{ padding: 90px 0; }
+.idxTit h2{ font-size: 40px; color: #58bae9; padding-left: 10px; letter-spacing: 10px;}
+.idxTit p{ font-size: 20px; color: #aaa; margin-top: 20px; letter-spacing: 30px; padding-left: 30px; }
+.about{ background: #fff }
+.about .text p{ color: #333; text-indent: 2em; padding: 0 180px; }
+.aboutList{ padding: 90px 0 20px 120px; }
+.aboutList li{ float: left; width: 130px; margin:0 30px; text-align: center; }
+.aboutList h4{ font-size: 16px; color: #58bae9; padding: 10px 0; }
+.aboutList p{ line-height: 24px; text-align: left; }
+
+/*case*/
+.case{ background: url( ../images/bg-2.png) no-repeat top center #fff; padding-top: 230px; height: 720px }
+.case ul{ margin-left: -32px; }
+.case li{ float: left; width: 302px; height: 300px; margin-left: 40px; text-align: center; }
+.case li a .pic img,.case li a h4,.topBar{transition:all .4s; -ms-transition:all .4s; -moz-transition:all .4s; -webkit-transition:all .4s; -o-transition:all .4s}
+.case li a .pic{ margin-bottom: 20px; width: 300px; height: 180px; border: solid 1px #ddd; overflow: hidden; }
+.case li a .pic img{ width: 300px; height: 180px;  }
+.case li a:hover .pic{border: solid 1px #58bae9; }
+.case li a:hover .pic img{ transform:scale(1.05); -ms-transform:scale(1.1); -moz-transform:scale(1.1); -webkit-transform:scale(1.1); -o-transform:scale(1.1)}
+.case li a h4,.case li a p{ height: 24px; line-height: 24px; }
+.case li a h4{ font-size: 16px; color: #333; }
+.case li a:hover h4{ color: #58bae9; height: 48px; line-height: 48px;   }
+.case li a:hover p{ display: none; }
+
+/*team*/
+.team{ padding-bottom: 60px; background: #fff}
+.teamList li{ width: 210px; height: 260px; display: inline-block;  vertical-align: top; line-height: 20px; color: #999}
+.teamList li h4{ font-size: 30px; color: #58bae9; margin: 15px 0; }
+
+/*partner*/
+.partner{ background: #fcfcfc; padding-bottom: 50px; }
+
+/*contact*/
+.contact{ background: #1f1f23; padding-bottom:50px;  }
+.contact .info{ line-height: 24px; color: #999; margin-left:60px; font-size: 12px; }
+.contact .info h4{ font-size: 16px; color: #fff; margin-bottom: 40px; }
+.contact .form{ width: 320px; margin-right: 60px;}
+.contact .form .btn{ width: 100%; height: 40px; line-height: 40px; display: block; text-align: center; color: #fff; background: #58bae9; font-size: 16px;}
+.contact .form .btn:hover{ color: #fff }
+.formList li{ min-height: 48px; _height: 48px; padding-left: 80px; border-bottom: solid 1px #ddd; position: relative; overflow: hidden; }
+.formList li .t{ width: 70px; height: 48px; line-height: 48px; font-size: 16px; color: #aaa; position: absolute; left: 10px; top:0;}
+.formList input,.formList textarea{ border:none; width: 220px; height: 28px; line-height: 28px; color: #fff; padding: 10px; font-size: 14px; background: none}
+.formList textarea{ height: 56px;}
+.formList li.curr{ border-color: #58bae9}
+.formList li.curr .t,.formList li.curr input,.formList li.curr textarea{color: #58bae9}
+
+/*foot*/
+.foot{ height: 60px; line-height: 60px; color: #58bae9; text-align: right; background: #000; font-size: 12px; }
+.foot img{ margin: 0 80px 0 20px; }
+
